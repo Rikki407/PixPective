@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import useImgur from '../hooks/useImgur';
+import useLocalStorage from '../hooks/useLocalStorage';
 
 const UploadForm = () => {
     const [file, setFile] = useState(null);
@@ -17,7 +17,7 @@ const UploadForm = () => {
             setError('Please select an image file (png or jpeg)');
         }
     };
-    useImgur(file);
+
     return (
         <div>
             <form action="">
