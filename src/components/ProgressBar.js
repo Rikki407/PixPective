@@ -1,4 +1,5 @@
 import React, { useContext, useEffect } from 'react';
+import { motion } from 'framer-motion';
 import useImgur from '../hooks/useImgur';
 import { UrlContext } from '../UrlContext';
 
@@ -19,7 +20,11 @@ const ProgressBar = ({ file, setFile }) => {
         }
     }, [url, setFile]);
     return (
-        <div className="progress-bar" style={{ width: progress + '%' }}></div>
+        <motion.div
+            className="progress-bar"
+            initial={{ width: 0 }}
+            animate={{ width: progress + '%' }}
+        ></motion.div>
     );
 };
 
