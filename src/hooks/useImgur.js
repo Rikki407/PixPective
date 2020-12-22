@@ -7,28 +7,26 @@ const useImgur = (file) => {
     const [url, setUrl] = useState(null);
 
     useEffect(() => {
-        if (file) {
-            let data = new FormData();
-            data.append('image', file);
-            const options = {
-                onUploadProgress: (progressEvent) => {
-                    const { loaded, total } = progressEvent;
-                    let percent = Math.floor((loaded * 100) / total);
-                    console.log(`${loaded}kb of ${total}kb | ${percent}%`);
-                    setProgress(percent);
-                },
-            };
-            instance
-                .post('/image', data, options)
-                .then(function (response) {
-                    setUrl(response.data.data.link);
-                    console.log(response.data.data.link);
-                })
-                .catch(function (error) {
-                    setError(error);
-                    console.log(error);
-                });
-        }
+        let data = new FormData();
+        data.append('image', file);
+        const options = {
+            onUploadProgress: (progressEvent) => {
+                const { loaded, total } = progressEvent;
+                let percent = Math.floor((loaded * 100) / total);
+                setProgress(percent);
+            },
+        };
+
+        instance
+            .post('/image', data, options)
+            .then(function (response) {
+                const imgUrl = response.data.data.link;
+                setUrl(imgUrl);
+            })
+            .catch(function (error) {
+                setError(error);
+                console.log(error);
+            });
     }, [file]);
 
     return { progress, url, error };
