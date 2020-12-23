@@ -2,8 +2,10 @@ import React, { useContext } from 'react';
 import { UrlContext } from '../UrlContext';
 import { motion } from 'framer-motion';
 
+
 const ImageGrid = ({ setSelectedImg }) => {
     const [urlList, setUrlList] = useContext(UrlContext);
+
     return (
         <div className="img-grid">
             {urlList.map((url) => (
