@@ -82,7 +82,7 @@ label:hover {
 }
 
 /* image grid styles */
-.img-grid .img-wrap:nth-child(3n + 2) {
+.img-grid .img-wrap:nth-child(3n + 1) {
     grid-column-end: span 2;
 }
 .img-grid {
