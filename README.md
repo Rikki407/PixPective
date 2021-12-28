@@ -1,6 +1,6 @@
 # Pixpective
 <h2>A beautiful gallery, to upload and view Images </h2>
-<p><strong>A beautiful gallery, to upload and view Images</strong></p>
+<h2><a href="https://pixpective.netlify.app/">Project Link</a></h2>
 
 <img alt="GIF" src="./pixpective-demo.gif" />
 
