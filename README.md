@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Pixpective
+<h2>A beautiful gallery, to upload and view Images </h2>
+<p><strong>A beautiful gallery, to upload and view Images</strong></p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img alt="GIF" src="./pixpective-demo.gif" />
 
-## Available Scripts
 
-In the project directory, you can run:
+<h3>Steps to Run</h3>
 
-### `yarn start`
+- Run `npm install` in terminal to install the dependecies
+- Run `npm start` in terminal to start running the application
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<h2> Hey there! I'm Rishab Lamba. <img src="https://github.com/souvikguria98/souvikguria98/blob/master/Hi.gif" width="25"></h2>
+<img align="right" alt="GIF" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" width="500"/>
 
-### `yarn test`
+<h2> 👨🏻‍💻 About Me </h2>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 🔭 &nbsp; I’m a FullStack Developer with proficiency in NodeJs/React
+- 🤔 &nbsp; Exploring new technologies and developing software solutions and quick hacks.
+- 🎓 &nbsp; Studying Computer Science, computer programming and Mathematics.
+- 💼 &nbsp; Software Engineer.
+- 🌱 &nbsp; Enthusiast in Data Science and Artificial Intelligence .
+- ☕ &nbsp; I belive, a perfect cup of coffee can be the ultimate solution for any stress. 
 
-### `yarn build`
+<h3>🛠 Tech Stack</h3>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 💻 &nbsp; JavaScript | ReactJS | NodeJS | Express 
+- 🌐 &nbsp; React Native | HTML | CSS | JavaScript | Bootstrap 
+- 🛢 &nbsp; Mongo DB | MySQL | Firebase
+- 🔧 &nbsp; Visual Studio code | Git
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img align="center" src="https://github-readme-stats.vercel.app/api?username=Rikki407&include_all_commits=true&count_private=true&show_icons=true&line_height=20&title_color=7A7ADB&icon_color=2234AE&text_color=D3D3D3&bg_color=0,000000,130F40" alt="Rikki407's Github Stats">
 
-### `yarn eject`
+</br>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Rikki407&layout=compact&text_color=daf7dc&bg_color=151515)](https://github.com/Rikki407/github-readme-stats)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<h3> 🤝🏻 Connect with Me </h3>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<p align="center">
+&nbsp; <a href="https://www.instagram.com/rishmish_/" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/plasticine/100/000000/instagram-new.png" width="50" /></a>  
+&nbsp; <a href="https://www.linkedin.com/in/rishab-lamba-647a37147/" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/plasticine/100/000000/linkedin.png" width="50" /></a>
+&nbsp; <a href="mailto:rshblamba@gmail.com" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/plasticine/100/000000/gmail.png"  width="50" /></a>
+</p>
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
